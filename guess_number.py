@@ -7,9 +7,8 @@ while(guessed == False):
     try:
         guess = input("Guess: ")
         guessInt = int(guess)
-        
     except Exception:
         print(f"Sorry, {guess} is not a number")
-    if (guess==s):
+    if (guessInt==s):
         guessed = True
 print("Correct!")
